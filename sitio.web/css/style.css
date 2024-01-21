@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(245, 143, 71);
+    padding: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font: size 40px;
+}
+
+p{
+    background-color: rgb(5, 137, 5);
+    padding: 1%;
+    text-decoration-style: double;
+    color: aliceblue;
+}
+
+nav{
+    border-style: solid;
+    border-width: 4px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+  @media (min-width: 1200px) {
+    h2, .h2 {
+      font-size: 2rem;
+    }
+  }
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
